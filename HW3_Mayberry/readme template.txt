@@ -24,7 +24,8 @@ test_out.txt                            -- Contains the encrypted output of test
 test_out_decrypt                        -- Contains the decryption of the test_out.txt will match with test.txt
 
 
-The virtual environment should contain all the installed libraries to run the program.
+This program works best in a virtual environment To create a venv run
+"python3 -m venv venv"
 To run the virtual environment cd to the directory it is contained, then run
 "source venv/bin/activate"
 This will put your terminal within the virtual environment
